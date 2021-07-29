@@ -9,7 +9,7 @@ import { AppError } from './errors/AppError';
 import './database';
 
 import './shared/container';
-import { router } from './modules/routes';
+import { router } from './routes';
 import swaggerFile from './swagger.json';
 
 const app = express();
